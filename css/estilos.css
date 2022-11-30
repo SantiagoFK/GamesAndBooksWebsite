@@ -1,6 +1,6 @@
-body
+html
 {
-    background: linear-gradient(#5465ff, #788bff);
+    height:100%;
 }
 
 header 
@@ -17,19 +17,41 @@ header h1
 nav
 {
     border: 1px solid black;
+    margin:10;
+    padding: 10px 10px;
 }
-
-main
+    
+nav > a
 {
     border: 1px solid black;
+    list-style-type:none;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
 }
 
-section
+.tarjetaJuego
+{
+    background-color: red;
+    border: 1px solid black;
+    height: 300px;
+    width: 250px;
+    margin: 70px 80px;
+    padding: 10px;
+    display: inline-block;
+}
+
+#tituloPagJuegos
 {
     border: 1px solid black;
+    text-align: center;
+    font-size: 40px;
 }
 
 footer
 {
+    clear:both;
     border: 1px solid black;
+    padding: 10px 10px;
+    text-align: center;
 }
