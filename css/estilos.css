@@ -1,16 +1,15 @@
-/*html
-{
-    height:100%;
-}*/
-
 body
 {
-    background: linear-gradient(#7209b7, #3f37c0);
+    background: linear-gradient(#05299e,#5e4ae3);
+}
+
+*{
+    color: white;
 }
 
 header 
 {
-    border: 1px solid black;
+    height: 440px;
 }
 
 header h1
@@ -21,17 +20,15 @@ header h1
 
 nav
 {
-    border: 1px solid black;
-    margin:10;
+    margin: 19px;
     padding: 10px 10px;
 }
     
 nav > a
 {
     border: 1px solid black;
-    list-style-type:none;
-    margin: 10px;
-    padding: 10px;
+    margin: 20px 0px;
+    padding: 25px 55px;
     text-decoration: none;
 }
 
@@ -72,5 +69,10 @@ footer
 {
     height: 300px;
     width: 250px;
+}
+
+#imgHeader
+{
+    height: 443px;
 }
 
