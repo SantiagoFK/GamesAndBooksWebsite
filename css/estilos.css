@@ -41,7 +41,7 @@ nav > a
     background-color: rgba(0,0,0,0);
 }
 
-.tarjetaJuego
+.tarjeta
 {
     /*background-color: red;*/
     border: 1px solid black;
@@ -52,10 +52,11 @@ nav > a
     display: inline-block;
 }
 
-#tituloPagJuegos
+.tituloSeccion
 {
     text-align: center;
     font-size: 40px;
+    border: 1px solid black;
 }
 
 footer
@@ -66,3 +67,10 @@ footer
     margin: 10px 0px;
     text-align: center;
 }
+
+.imgTarjeta
+{
+    height: 300px;
+    width: 250px;
+}
+
