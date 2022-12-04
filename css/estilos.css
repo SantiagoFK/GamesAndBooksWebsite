@@ -41,7 +41,7 @@ nav a:hover
     background-color: hotpink;
 }
 
-#contenedorJuegos
+.contenedor
 {
     /*fondo transparente*/
     background-color: rgba(0,0,0,0);
@@ -140,4 +140,23 @@ footer
 .cajaInput input[type="submit"]:hover
 {
     border: 1px solid white;
+}
+
+#contenedorAbout
+{
+    border: 1px solid black;
+    height: 900px;
+}
+
+#tarjetaAbout
+{
+    margin: 40px;
+    height: 400px;
+    width: 370px;
+}
+
+#imagen_archer
+{
+    height: 400px;
+    width: 370px;
 }
