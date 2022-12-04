@@ -6,6 +6,7 @@ body
 *{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+   /* text-shadow: 2px 2px 2px black;*/
 }
 
 header 
@@ -88,3 +89,55 @@ footer
     max-width: 100%;
 }
 
+#formulario
+{
+    background: linear-gradient(#7209b7, #3f37c0);
+    border: 1px solid hotpink;
+    margin: 50px auto;
+    padding: 20px;
+    height: 450px;
+    width: 510px;
+}
+
+.cajaInput
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 30px;
+    padding: 10px;
+}
+
+.cajaInput input
+{
+    width: 420px;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid hotpink;
+    background: transparent;
+}
+
+.cajaInput textarea
+{
+    resize: none;
+    border: none;
+    border-bottom: 2px solid hotpink;
+    background: transparent;
+}
+
+.cajaInput input[type="submit"]
+{
+    width: 425px;
+    height: 55px;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 4px;
+    /*font-weight: bold;*/
+    text-transform: uppercase;
+    cursor:pointer;
+    background-color: #f72585;
+}
+
+.cajaInput input[type="submit"]:hover
+{
+    border: 1px solid white;
+}

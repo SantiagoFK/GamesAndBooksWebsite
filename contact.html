@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href = "./css/estilos.css" rel = "stylesheet"/>
+</head>
+<body>
+    <header>
+        <img src = "./img/header/HeaderDos.png" id = "imgHeader"  alt = "header"/>
+    </header>
+
+    <nav id = "BarraSup">
+        <a href = "index.html"> Inicio </a>
+        <a href = "games.html"> Games </a>
+        <a href = "books.html"> Books </a>
+        <a href = "contact.html"> Contacto </a>
+        <a href = "about.html"> about </a>
+    </nav>
+
+    <h1 id = "tituloFormulario" class = "tituloSeccion"> Contacto </h1>
+
+    <section id = "formulario">
+        <form autocomplete="off"> <!-- metodo GET-->
+            <div id = "cajaNombre" class = "cajaInput" >
+                <label for = "nombre">Nombre: </label><br/>
+                <input type = "text" id = "nombre" name = "nombre"/><br/>
+            </div>
+
+            <div id = "cajaEmail" class = "cajaInput">
+                <label for = "email">Email:</label><br/>
+                <input type = "email" id = "email" name = "email"/><br/>
+            </div>
+
+            <div id = "cajaComentario" class = "cajaInput">
+                <label for = "comentario">Comentario: </label><br/>
+                <textArea id = "comentario" name = "comentario" 
+                rows = "4" cols = "50"></textArea>
+            </div>
+
+            <div id = "botonEnviar" class = "cajaInput">
+                <input type = "submit" value = "Enviar"/>
+            </div>
+
+        </form>
+    </section>
+
+    <footer>
+        Pagina hecha por &copySFK 
+    </footer>
+</body>
+</html>
