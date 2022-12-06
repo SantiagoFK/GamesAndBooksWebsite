@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
 body
 {
     background: linear-gradient(#05299e,#5e4ae3);
@@ -39,6 +41,7 @@ nav a
 nav a:hover
 {
     background-color: hotpink;
+    transition: all 0.5s; /*para que tenga como un retardo*/
 }
 
 .contenedor
@@ -153,10 +156,29 @@ footer
     margin: 40px;
     height: 400px;
     width: 370px;
+    position: relative;
+    top: 150px;
 }
 
 #imagen_archer
 {
     height: 400px;
     width: 370px;
+}
+
+#tarjetaFont
+{
+    border: none;
+    position: relative;
+    bottom: 320px;
+    right: 50px;
+    height: 100px;
+    width: 350px;
+}
+
+.fuente_player2
+{
+    font-family: "Press Start 2P", cursive;
+    font-size: 70px;
+    text-align: center;
 }
