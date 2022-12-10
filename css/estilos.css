@@ -194,3 +194,12 @@ footer
     text-align: justify;
     line-height: 1.5em;
 }
+
+article.post
+{
+    border: 3px solid hotpink;
+    margin: 30px;
+    height: 150px;
+    padding: 10px;
+    overflow: hidden;
+}
