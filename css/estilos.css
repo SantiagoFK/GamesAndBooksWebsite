@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap&effect=neon");
 
 body
 {
@@ -174,11 +174,23 @@ footer
     right: 50px;
     height: 100px;
     width: 350px;
+    font-size: 70px;
+    text-align: center;
 }
 
 .fuente_player2
 {
     font-family: "Press Start 2P", cursive;
-    font-size: 70px;
-    text-align: center;
+}
+
+.cajaTexto
+{
+    position: relative;
+    left: 500px;
+    bottom: 280px;
+    width: 750px;
+    height: 600px;
+    padding: 0px 0px;
+    text-align: justify;
+    line-height: 1.5em;
 }
